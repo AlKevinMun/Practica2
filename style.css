@@ -1,0 +1,70 @@
+body{
+  background-color: #5d59a5;
+  margin-top: 0;
+}
+.Fondo{
+  background-color: #a4c5e9;
+}
+h3{
+  margin: 0;
+}
+#Titulo{
+  margin-left: 10em;
+  margin-right:5em;
+  text-shadow: 2px -2px #ffffff;
+  color: #5d59a5;
+  text-align: center;
+}
+#Caja_Principal{
+  border: thin solid;
+  border-left: 1em;
+  border-right: 1em;
+  border-bottom: 1em;
+  border-color: #5d59a5
+}
+#Cara_Yogi{
+  border: thin solid;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+}
+#Caja_Beisbolista{
+  background-color: white;
+  padding: 1px;
+}
+
+/*clearfix*/
+#Caja_Beisbolista:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.Texto_naranja{
+  border: dashed;
+  border-color: white;
+  background-color: #f28226;
+  color: white;
+  margin-left: 5em;
+  margin-right: 7em;
+  padding: 5px;
+}
+.Texto_naranja::first-letter{
+  font-size: 120%;
+  color: black;
+}
+.Texto_Verde{
+  background-image: url("verde.png");
+  margin-left: 7em;
+  margin-right: 6em;
+  padding: 5px;
+  text-align: center;
+}
+.Texto_Marron{
+  background-color: #b45421;
+  color: white;
+  border: solid;
+  border-top: 0;
+  border-bottom: 0;
+  margin-right: 5em;
+  margin-left: 8em;
